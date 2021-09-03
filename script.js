@@ -1,6 +1,6 @@
 // Assign Characters
-var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lower = "abcdefghijklmnopqrstuvwxyz";
+var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var special = "!@,#$%&*{}[]/\+=";
 var chosenCharacters = "";
@@ -19,29 +19,28 @@ function enterpassword(){
 
 
 
-//generatePassword function gets called in writePassword function, returning the final password
+//generatePassword function calls writePassword function => returning the final password
 function generatePasswords(){
- //do random generation here and return the final password in the end
  var result = "";
- //ask the user how many characters they want
- var length = prompt("How many characters in your random password? (between 8 and 128)");
+  //Prompt user how many characters in Password
+ var length = prompt("How many characters would you like in your Password? (between 8 and 128)");
  if(isNaN(length)){
-   alert("You must input a number!");
+   alert("Number must be greater than 8");
    return generatePassword()
  }
  if(length<8 || length> 128){
-   alert("Please choose numbers between 8 - 128!");
+   alert("Number must be less than 128");
    return generatePassword()
  }
-}
 
 
-//User needs to confirm if they want to include lower, upper, num, special?
-var hasUpper = confirm("Include upper case letters?");
+
+//User needs to confirm to include lower, upper, num, special
 var hasLower = confirm("Include lower case letters?");
+var hasUpper = confirm("Include upper case letters?");
 var hasNumbers = confirm("Include numbers?");
 var hasSpecial = confirm("Include special characters?");
-
+}
 
 
 if(){
@@ -61,5 +60,7 @@ if(hasSpecial) {
 }
 
 // (for loop)
+for (var i = 0; i < length; i++)
 
-return
+return;
+}
