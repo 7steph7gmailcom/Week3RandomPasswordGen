@@ -1,32 +1,37 @@
-# Week3RandomPasswordGen
+# Week3 Random Password Generator
 
-Week3 project creating a random password generator
+# Stephanie Johansson
 
-- Create PROMPTS
-  (ref: Class activites #7 in unit 4)
+#### The project assigned during week 3 was to create a random password generator. The password was to be between 8 and 128 characters long. The use of upper and lower case letters as well as special characters and numbers were also required. This project was given boiler plate templates for both HTML and CSS. When the "Generate Password" button is pressed, the user is prompted through a series of questions concerning preferences in their password.
 
-  - stating lenght of PW must be between
-    at least 8 and no more than 128 characters. Ask user how many characters long they desire.
-  - if/else statements to:
-    check for valid user input, tells user if input  
-    is valid or needs to be corrected.
+## Screenshot of Finished Project
+https://drive.google.com/file/d/1OgfL7YvvMKxFCIBvnIcx3OGxrCfxsEP6/view?usp=sharing
 
-  - confirm if user PW to include or exclude
-    lowercase, uppercase, numeric and/or special charactors
-  - if/else statements to: verify user selections  
-    and valid input.
-    (at least one charactor type should be selected)
-    Record data.
+## Technology Used
 
-- After all prompts are answered - PW generated  
-  should match selected criterias.
-  Must formulate random password generator.
+- HTML
+- CSS
+- Java Script
 
-- When PW is generated, should display in an alert
-  or written on page.
+## Resources Used
 
-- Media query
+- [Google](https://google.com)
+- [Moment.js](https://momentjs.com)
+- [w3schools](https://w3schools.com)
+- [MDN Web Docs](https://developer.mozilla.org)
 
-1. establish elements in global memory
-2. what actions do you want to take w/element?
-3. append to DOM
+## Setup/Installation Requirements
+
+- internet service
+- device with a monitor
+- a web browser is needed to view application
+- Github account to view code
+- cut and paste Github repository to view code
+
+## Contact Information
+
+stephanie.johansson@gmail.com
+
+linkedin.com/in/stephanie.johansson-934096213
+
+
